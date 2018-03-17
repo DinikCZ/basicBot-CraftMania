@@ -181,18 +181,18 @@
     var basicBot = {
         version: "2.9.1",
         status: false,
-        name: "CM Bot",
+        name: "Taiga",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/VenaCzPlay/PlugDJBotCM/master/lang/cs.json",
+        chatLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/lang/cs.json",
         chat: null,
         loadChat: loadChat,
         settings: {
             botName: "CM Bot",
             language: "czech",
-            chatLink: "https://rawgit.com/VenaCzPlay/PlugDJBotCM/master/lang/cs.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/lang/cs.json",
+            scriptLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 34, // 1-200
             startupVolume: 50, // 0-100
@@ -224,19 +224,19 @@
             skipPosition: 3,
             skipReasons: [
                 ["tema", "Toto téma se nehodí k této komunitě. "],
-                ["op", "This song is on the OP list. "],
-                ["historie", "Tato skladba nedávno hrála. "],
-                ["mix", "You played a mix, which is against the rules. "],
-                ["sound", "The song you played had bad sound quality or no sound. "],
+                ["op", "Tato písnička je na Overplayed seznamu. "],
+                ["historie", "Tato písnička nedávno hrála. "],
+                ["mix", "Tato písnička je mix, proto byla přeskočena. "],
+                ["sound", "Tato písnička neměla zvuk nebo málo kvalitní zvuk. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["hymna", "Hymny se zde nepouštějí. Hlavně ne Mariho. - Dino 2k16 "],
-                ["nedostupne", "The song you played was not available for some users. "]
+                ["nedostupne", "Tato písnička není pro některé uživatele dostupná. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: true,
             motdInterval: 5,
-            motd: "CraftMania.cz | http://craftmania.cz | play.craftmania.cz",
+            motd: "CraftMania.cz | http://craftmania.cz | mc.craftmania.cz",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
