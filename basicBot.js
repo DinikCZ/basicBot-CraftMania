@@ -189,7 +189,7 @@
         chat: null,
         loadChat: loadChat,
         settings: {
-            botName: "CM Bot",
+            botName: "Taiga",
             language: "czech",
             chatLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/lang/cs.json",
             scriptLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/basicBot.js",
