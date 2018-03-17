@@ -183,16 +183,16 @@
         status: false,
         name: "Taiga",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/basicBot.js",
+        scriptLink: "https://dinikcz.github.io/basicBot-CraftMania/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/lang/cs.json",
+        chatLink: "https://dinikcz.github.io/basicBot-CraftMania/lang/cs.json",
         chat: null,
         loadChat: loadChat,
         settings: {
             botName: "Taiga",
             language: "czech",
-            chatLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/lang/cs.json",
-            scriptLink: "https://rawgit.com/DinikCZ/basicBot-CraftMania/master/basicBot.js",
+            chatLink: "https://dinikcz.github.io/basicBot-CraftMania/lang/cs.json",
+            scriptLink: "https://dinikcz.github.io/basicBot-CraftMania/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 34, // 1-200
             startupVolume: 50, // 0-100
