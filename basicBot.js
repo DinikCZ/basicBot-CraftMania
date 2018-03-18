@@ -259,10 +259,10 @@
             chatLink: "https://dinikcz.github.io/basicBot-CraftMania/lang/cs.json",
             scriptLink: "https://dinikcz.github.io/basicBot-CraftMania/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 34, // 1-200
-            startupVolume: 50, // 0-100
-            startupEmoji: true, // true or false
-            autowoot: false,
+            startupCap: 1, // 1-200
+            startupVolume: 0, // 0-100
+            startupEmoji: false, // true or false
+            autowoot: true,
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
@@ -276,7 +276,7 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
+            voteSkip: true,
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
