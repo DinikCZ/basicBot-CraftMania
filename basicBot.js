@@ -251,6 +251,8 @@
         chatLink: "https://dinikcz.github.io/basicBot-CraftMania/lang/cs.json",
         chat: null,
         loadChat: loadChat,
+		retrieveSettings: retrieveSettings,
+        retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "Taiga",
             language: "czech",
