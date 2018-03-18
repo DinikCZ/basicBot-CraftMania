@@ -68,7 +68,17 @@
         var data = {users:API.getUsers(),userinfo:API.getUser(),room:location.pathname,basicBotSettings:basicBotSettings,basicBotRoom:basicBotRoom,basicBotInfo:basicBotInfo};
         return sock.msg(data);
     };*/
-
+	
+    var storeToStorage = function() {
+        localStorage.setItem('basicBotsettings', JSON.stringify(basicBot.settings));
+        localStorage.setItem('basicBotRoom', JSON.stringify(basicBot.room));
+        var basicBotStorageInfo = {
+            time: Date.now(),
+            stored: true,
+            version: basicBot.version
+        };
+        localStorage.setItem('basicBotStorageInfo', JSON.stringify(basicBotStorageInfo));
+    };
 
     var subChat = function (chat, obj) {
         if (typeof chat === "undefined") {
@@ -1862,7 +1872,7 @@
                         else {
                             basicBot.settings.cmdDeletion = !basicBot.settings.cmdDeletion;
                             API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.cmddeletion}));
-                        }
+                        };
                     }
                 }
             },
